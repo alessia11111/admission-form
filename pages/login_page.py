@@ -1,5 +1,4 @@
 import streamlit as st
-import home
 user_pass = {'cool_coder':'redhouse123','hhihiuhiuj':'gghgggggggggggggggggggggg','hiugluhiouh':'abcdefghijklmnopqrstuvwxyz'}
 st.title('LOGIN PAGE')
 st.write('already a member? login with your credentials')
