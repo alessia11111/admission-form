@@ -1,9 +1,8 @@
 import streamlit as st
 import admission_form
 import school_info
-import login_page
 if not st.session_state.get('logged_in',False):
-	st.switch_page('login_page.py')
+	st.switch_page('pages/login_page.py')
 pages_dict = {
 	'Form': admission_form,
 	'Info': school_info,
